@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "test:deno": "deno test deno_expect_test.ts",
+    "test:jest": "deno test --allow-env jest_expect_test.ts",
+    "test": "deno test --allow-env"
+  },
+  "imports": {
+    "@std/expect": "jsr:@std/expect@^1.0.13"
+  }
+}
